@@ -2,33 +2,34 @@
 <html lang="ar" dir="rtl">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="./favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Smart Employee Attendance System"
-    />
-    <link rel="apple-touch-icon" href="/logo192.png" />
+    <meta name="description" content="Smart Employee Attendance System" />
+    <link rel="apple-touch-icon" href="./logo192.png" />
     <link rel="manifest" href="./manifest.json" />
     <title>نظام الحضور الذكي</title>
+
+    <!-- مكتبات خارجية -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.23/jspdf.plugin.autotable.min.js"></script>
-  <script type="importmap">
-{
-  "imports": {
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "jspdf": "https://aistudiocdn.com/jspdf@^3.0.3",
-    "jspdf-autotable": "https://aistudiocdn.com/jspdf-autotable@^5.0.2",
-    "xlsx": "https://aistudiocdn.com/xlsx@^0.18.5"
-  }
-}
-</script>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+          "react/": "https://aistudiocdn.com/react@^19.2.0/",
+          "react": "https://aistudiocdn.com/react@^19.2.0",
+          "jspdf": "https://aistudiocdn.com/jspdf@^3.0.3",
+          "jspdf-autotable": "https://aistudiocdn.com/jspdf-autotable@^5.0.2",
+          "xlsx": "https://aistudiocdn.com/xlsx@^0.18.5"
+        }
+      }
+    </script>
+
     <style>
       @keyframes fade-in-up {
         from {
@@ -44,11 +45,15 @@
         animation: fade-in-up 0.3s ease-out forwards;
       }
     </style>
-<link rel="stylesheet" href="/index.css">
-</head>
+
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>يجب تفعيل الجافاسكريبت لتشغيل التطبيق</noscript>
     <div id="root"></div>
+
+    <!-- ملف التشغيل -->
     <script type="module" src="./index.tsx"></script>
   </body>
 </html>
