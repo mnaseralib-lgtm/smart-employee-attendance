@@ -1,0 +1,1 @@
+// Scanner.js - converted from TypeScript
